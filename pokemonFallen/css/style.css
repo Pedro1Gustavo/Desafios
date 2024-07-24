@@ -1,0 +1,255 @@
+/* CSS Import */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url(var.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#PokeFallen-logo {
+    height: 5rem;
+    margin-left: 3rem;
+}
+
+header {
+    background-color: var(--red-color);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    margin-right: 3rem;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+#dropdownMenuButton {
+    background-color: transparent;
+    border: none;
+}
+
+#btn-fallen-shop {
+    background-color: transparent;
+    border: none;
+}
+
+.fallen-introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--introduction-color);
+    height: 80vh;
+    padding: 2rem;
+}
+
+.introduction-txt {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+#fallen-title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+#introduction-p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#introduction-download {
+    background-color: var(--red-color);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#introduction-comunity {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#introduction-download:hover {
+    background-color: var(--sub-red-color);
+    transform: scale(1.1);
+}
+
+#introduction-comunity:hover {
+    background-color: rgb(247, 236, 236);
+    transform: scale(1.1);
+}
+
+.introduction-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 15vw;
+}
+
+#logo-darkrai {
+    height: 30rem;
+}
+
+.introduction-img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 40vw;
+    padding: 2rem;
+}
+
+.fallen-sinopse {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 1rem;
+}
+
+.sinopse-card {
+    width: 50vw;
+}
+
+.fallen-sistemas {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 1rem;
+}
+
+.sistemas-card {
+    width: 50vw;
+}
+
+.itens-sistema {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.item-sistema {
+    max-width: 32vw;
+    box-sizing: border-box; 
+}
+
+/* caixa de dúvidas, ainda pretendo alterar*/
+.accordion .card-header {
+    background-color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+}
+.accordion .card-header .btn {
+    color: #007bff;
+    text-align: left;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0;
+}
+.accordion .card-body {
+    background-color: white;
+    font-size: 1rem;
+    padding: 1rem 1.25rem;
+    border-top: 1px solid #e9ecef;
+}
+.accordion .card {
+    border: 1px solid #e9ecef;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+.accordion .card-header .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.accordion .card-header .btn i {
+    float: right;
+    transition: transform 0.2s;
+}
+.accordion .card-header .btn.collapsed i {
+    transform: rotate(180deg);
+}
+
+/* caixa de dúvidas, ainda pretendo alterar*/
+
+.download-game {
+    background-color: var(--introduction-color);
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#download-now {
+    background-color: var(--red-color);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    width: 20rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#download-now:hover {
+    background-color: var(--sub-red-color);
+    transform: scale(1.1);
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: var(--red-color);
+    width: 100vw;
+    height: 20vh;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 20vh;
+}
